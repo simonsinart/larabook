@@ -7,6 +7,9 @@
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="/css/main.css">
 	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+
+
 </head>
 <body>
 	
@@ -17,6 +20,7 @@
 		@yield('content')
 	</div>
 
+	<script src="https://js.stripe.com/v2/"></script>
 	<script src="//code.jquery.com/jquery.js"> </script>
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 	<script> 
